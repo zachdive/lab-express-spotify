@@ -1,0 +1,113 @@
+.btn {
+    margin: 0 auto;
+    display: block;
+    background-color: #ef6866;
+    color: white;
+    height: 5vh;
+    border: none;
+    border-radius: 4px;
+    transition: ease-in-out;
+  }
+  
+  .btn:hover {
+    transform: scale(1.08);
+    color: white;
+  }
+  
+  .navbar {
+    background-color: green;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .navbar-brand {
+    margin-left: 10px;
+  }
+
+
+
+  body {
+    background-image: url("/images/spotify-background.jpeg");
+    background-size: cover;
+    height: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 200px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    opacity: 0.8;
+    position: relative;
+    top: 500px;
+    left: 35%;
+  }
+  
+  input[name="artist"] {
+    width: 100%;
+  }
+  
+  form button {
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  /*Albums page*/
+.album-img {
+    width: fit-content;
+  }
+  
+  .albums {
+    display: flex;
+    width: 100;
+  }
+  
+  .album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: #4d4d4d;
+    width: 22rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    border: none;
+    width: 18rem;
+  }
+  
+  .card h5 {
+    color: white;
+    height: 72px;
+  }
+  
+  .card-img-top {
+    min-height: 290px;
+    max-height: 290px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }

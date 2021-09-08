@@ -1,0 +1,17 @@
+<div class= "card"
+<ul>
+  {{#each allTracks}}
+    <li>
+     {{name}} 
+     <audio controls>
+  <source src={{preview_url}}type="audio/ogg">
+  <source src={{preview_url}}type="audio/mpeg">
+
+</audio>
+    </li>
+  {{/each}}
+</ul>
+</div>
+
+
+

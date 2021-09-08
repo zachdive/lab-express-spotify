@@ -1,0 +1,11 @@
+<div class = "card"
+<ul>
+  {{#each allAlbums}}
+    <li>
+     {{name}} 
+     <a href="/albums/tracks/{{id}}">View Tracks</a>
+      <img src = "{{images.0.url}}" class= "card-img-top" alt="album image"/>
+    </li>
+  {{/each}}
+</ul>
+</div>
